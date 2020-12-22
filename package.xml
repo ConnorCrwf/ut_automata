@@ -1,0 +1,47 @@
+<package>
+  <name>ut_automata</name>
+  <version>1.0.0</version>
+  <description>UT Automata Course Infrastructure</description>
+  <maintainer email="cdcrwf@utexas.edu">Maintained by Connor Crawford</maintainer>
+
+  <license>LGPLv3.0</license>
+
+  <url type="website">https://github.com/ut-amrl/ut_automata</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Maintained by Joydeep Biswas</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>serial</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>amrl_msgs</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>serial</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>amrl_msgs</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>roscpp</test_depend> -->
+  <!-- <test_depend>std_msgs</test_depend> -->
+  <!-- <test_depend>geometry_msgs</test_depend> -->
+  <!-- <test_depend>nav_msgs</test_depend> -->
+  <!-- <test_depend>sensor_msgs</test_depend> -->
+  <!-- <test_depend>serial</test_depend> -->
+  <!-- <test_depend>tf</test_depend> -->
+  <!-- <test_depend>amrl_msgs</test_depend> -->
+
+</package>
